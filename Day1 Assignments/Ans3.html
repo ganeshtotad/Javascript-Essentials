@@ -1,0 +1,105 @@
+<html>
+    <head>
+    <h1>DATA TYPES IN JAVASCRIPT</h1>
+    <body>
+        JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+        <br><ol><li>Primitive data type</li>
+        <li>Non-primitive (reference) data type</li></ol>
+        <br><h3>JavaScript primitive data types</h3>
+        <p>There are five types of primitive data types in JavaScript. They are as follows:
+            <br><ol><li><h4>String-   represents sequence of characters e.g. "hello"</li>
+                              <li><h4>Number-   represents numeric values e.g. 100</li>
+                                <li><h4>Boolean-   represents boolean value either false or true</li>
+                                      <li><h4>Undefined-   represents undefined value</li>
+                                 <li><h4>Null-   represents null i.e. no value at all</li></ol> 
+
+                                    <br><h3>JavaScript Non-primitive data types</h3>
+                                    <p>The non-primitive data types are as follows:
+                                        <br><ol><li><h4>Object-	represents instance through which we can access members</li>
+                                                          <li><h4>Array-	represents group of similar values</li>
+                                                            <li><h4>RegExp-	represents regular expression</li></ol> 
+                                                         </p><h5>STRING DATA TYPE</h5>
+                                                         <script>
+                                                            // Creating variables
+                                                            var a = 'Hi there!';  // using single quotes
+                                                            var b = "Hi there!";  // using double quotes
+                                                            
+                                                            // Printing variable values
+                                                            document.write(a + "<br>");
+                                                            document.write(b);
+                                                            </script> 
+                                                         <h5> NUMBER DATA TYPE </h5>   
+                                                <script> 
+     // Creating variables
+    var a = 25;               // integer
+    var b = 80.5;             // floating-point number
+    var c = 4.25e+6;          // exponential notation, same as 4.25e6 or 4250000
+    var d = 4.25e-6;          // exponential notation, same as 0.00000425
+    
+    // Printing variable values
+    document.write(a + "<br>");
+    document.write(b + "<br>");
+    document.write(c + "<br>");
+    document.write(d);  
+      </script>
+      <h5>BOOLEAN DATA TYPE</h5>
+      <script>
+        // Creating variables
+        var isReading = true;   // yes, I'm reading
+        var isSleeping = false; // no, I'm not sleeping
+        
+        // Printing variable values
+        document.write(isReading + "<br>");
+        document.write(isSleeping);
+        </script>
+        <h5>UNDEFINED DATA TYPE</h5>
+         <script>
+            // Creating variables
+            var e;
+            var b = "Hello World!"
+            
+            // Printing variable values
+            document.write(e + "<br>");
+            document.write(b);
+            </script>
+            <h5>NULL DATA TYPE</h5>
+            <script>
+                var a = null;
+                document.write(a + "<br>"); // Print: null
+                
+                var b = "Hello World!"
+                document.write(b + "<br>"); // Print: Hello World!
+                
+                b = null;
+                document.write(b) // Print: null
+                </script>
+                <h5>OBJECT DATA TYPE</h5>
+                <script>
+                    var emptyObject = {};
+                    var person = {"name": "Clark", "surname": "Kent", "age": "36"};
+                     
+                    // For better reading
+                    var car = {
+                        "modal": "BMW X3",
+                        "color": "white",
+                        "doors": 5
+                    }
+                    
+                    // Print variables values in browser's console
+                    console.log(person);
+                    console.log(car);
+                    </script>
+                    <p><strong>Note:</strong> Check out the browser console by pressing the f12 key on the keyboard.</p>  
+                    <h5>ARRAY DATA TYPE</h5>     
+                    <script>
+                        // Creating arrays
+                        var colors = ["Red", "Yellow", "Green", "Orange"];
+                        var cities = ["London", "Paris", "New York"];
+                        
+                        // Printing array values
+                        document.write(colors[0] + "<br>");   // Output: Red
+                        document.write(cities[2]);   // Output: New York
+                        </script>
+    </body>
+</head>
+</html>

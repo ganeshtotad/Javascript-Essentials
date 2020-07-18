@@ -1,0 +1,54 @@
+<html>
+    <body>
+    <p><strong>Note:</strong> Check out the browser console by pressing the f12 key on the keyboard.</p>
+    <h2>The Differences Between let and var</h2> 
+   <p> A var variable can be redeclared and updated.<br>
+    A let variable be be updated but not redeclared.
+<h2>The Differences Between let and const</h2>
+const variables cannot be updated.<br>let variables are made to be updated.</p>
+<script>
+// Var
+
+// String
+var name = "Jothika"; 
+// Number
+var age = 24;
+// Boolean
+var canFly = false;
+// Array
+var languages = ['Hindi','English','Tamil'];
+// Objects
+var friends = {
+    Name:"Rita",
+    Hobby:"Drawing",
+}
+
+var a = 10;
+console.log(a);
+
+var a = null;
+console.log(a);
+
+// Let 
+{
+   let city;
+   let name = "Jothika"; 
+   name = "Lakshmi";
+   console.log("Using Let: ", name);
+}
+console.log(name)
+
+// const - Constant
+
+const country = "India";
+console.log(country);
+
+// country = "UK";
+
+const _fruits = ["Grapes", "Orange"]
+console.log(_fruits)
+_fruits.push('Apple');
+console.log(_fruits)
+</script>
+</body>
+</html>
