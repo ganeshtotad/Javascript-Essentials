@@ -1,0 +1,29 @@
+<!-- xplain with examples the remaining methods of String and Array -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q2</title>
+</head>
+<body>
+    <script>
+        let str="Hi, how is your day"
+        console.log(str.slice(-8,-4));               //slice() extracts a part of a string and returns the extracted part in a newstring
+        console.log(str.substring(8,10));               //substring() is similar to slice() but cannot accept negative indexes
+        console.log(str.replace("Hi","Hello"));        //replaces only first match
+        let st="  hi  "
+        console.log(st.trim());                      //trims the spaces
+        let fruits = ["Banana", "Orange", "Apple", "Mango"];
+        /* splice()-> The first parameter  defines the position where new elements should be added.
+         The second parameter defines how many elements should be removed.
+         The rest of the parameters define the new elements to be added */
+        fruits.splice(2, 0, "Lemon", "Kiwi");
+        console.log(fruits);
+        console.log(fruits.toString());               //coverts array into string
+    
+
+
+    </script>
+</body>
+</html>
