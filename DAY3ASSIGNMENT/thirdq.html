@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q3</title>
+</head>
+<body>
+    <p>press F12 to see the output</p>
+    <script>
+        let m = prompt("Enter marks:");
+        let x;
+        if(m>=90){
+            x=1;
+        }
+        else if(m>=80)
+        {
+            x=2;
+        }
+        else if(m>=70)
+        {
+            x=3;
+        }
+        else if(m>=60)
+        {
+            x=4;
+        }
+        else if(m>=50)
+        {
+            x=5;
+        }
+        else if(m>=40)
+        {
+            x=6;
+        }
+        else 
+        {
+            x=7;
+        }
+
+        switch(x){
+            case 1:
+                console.log(`Marks are ${m}  and grade is O`);
+                break;
+            
+            case 2:
+                console.log(`Marks are ${m}  and grade is S`);
+                break;
+            
+            case 3:
+                console.log(`Marks are ${m}  and grade is A`);
+                break;
+            
+            case 4:
+                console.log(`Marks are ${m}  and grade is B`);
+                break;
+            
+            case 5:
+                console.log(`Marks are ${m}  and grade is C`);
+                break;
+            
+            case 6:
+                console.log(`Marks are ${m}  and grade is D`);
+                break;
+            
+            case 7:
+                console.log(`Marks are ${m}  and grade is F`);
+                break;
+            }
+    </script>
+</body>
+</html>
