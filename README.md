@@ -1,2 +1,2 @@
-# Javascript-Essentials
-Javascript-Essentials assignments
+# Day-4-assignment
+Day 4 assignment soluthion
